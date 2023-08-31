@@ -1,4 +1,4 @@
-function MainArticle() {
+const MainArticle=()=> {
     return (
         <>
             <section>

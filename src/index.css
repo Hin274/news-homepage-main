@@ -5,6 +5,20 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  background: hsl(36, 100%, 99%);
+}
+
+li {
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+@media (min-width:1025px) {
+  li {
+
+    font-weight: 400;
+    color:  hsl(236, 13%, 42%);
+  }
 }
 
 h1 {
@@ -54,18 +68,13 @@ hr {
   border-color: hsl(236, 13%, 42%);
 }
 
-/* article img {
-  width: 80%;
-  object-fit: cover;
-} */
-
 article div h2 {
   color: hsl(233, 8%, 79%);
   font-size: 2rem;
   font-weight: 800;
 }
 
-article div h3{
+article div h3 {
   font-size: 1.2rem;
   font-weight: 800;
 }
@@ -77,4 +86,73 @@ article div h3{
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  /* position: fixed; */
+  width: 36px;
+  height: 30px;
+  /* right: 5%;
+  top: 36px; */
+  margin-left: 9rem;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  /* background: #a90000; */
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  margin: 1.7rem 0.8rem;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  bottom: 0;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: hsl(36, 100%, 99%);
+  padding: 7.5em 1em;
+  /* font-size: 1.15em; */
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  /* color: #b8b7ad; */
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  left: 0;
 }

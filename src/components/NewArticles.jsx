@@ -1,4 +1,4 @@
-function NewArticle() {
+const NewArticle=()=> {
     return (
         <>
             <aside>

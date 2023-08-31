@@ -1,4 +1,4 @@
-function ListArticles() {
+const ListArticles=()=> {
     return (
         <> 
             <section className="grid my-5 gap-10">
