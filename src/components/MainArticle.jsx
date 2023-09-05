@@ -1,24 +1,26 @@
 const MainArticle=()=> {
     return (
         <>
-            <section>
+            <section className="lg:col-span-8">
                 <picture>
                     <source
-                        media="(min-width: 1440px)"
+                        media="(min-width: 769px)"
                         srcSet="../assets/images/image-web-3-desktop.jpg"
                     />
                     <source
-                        media="(min-width: 375px)"
+                        media="(min-width: 320px)"
                         srcSet="../assets/images/image-web-3-mobile.jpg"
                     />
                     <img src="../assets/images/image-web-3-mobile.jpg" alt="puzzle blocks" className="py-4" />
                 </picture>
-                <h1>The Bright Future of Web 3.0?</h1>
-
-                <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
+                <div className="lg:grid lg:grid-cols-2">
+                <h1 className="lg:text-6xl">The Bright Future of Web 3.0?</h1>
+                <div>
+                <p className="lg:text-xl">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
                     people. But is it really fulfilling its promise?</p>
-
                 <button className="readMore">Read more</button>
+                </div>
+                </div>
             </section>
         </>
     )

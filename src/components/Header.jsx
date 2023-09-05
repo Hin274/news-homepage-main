@@ -4,14 +4,14 @@ import NavBar from "./NavBar/NavBar"
 
 const Header =()=> {
     return (
-        <div>
-            <header className="grid grid-cols-2 py-3 items-center lg:grid-cols-12">
+        <>
+            <header className="grid py-3 items-center lg:col-span-12 lg:py-0">
                 <img src="../assets/images/logo.svg" className="w-14" />
                  <NavBar/>  
                    
                 
             </header>
-        </div>
+        </>
     )
 
 }

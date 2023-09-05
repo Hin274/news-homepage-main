@@ -10,11 +10,13 @@ const App=()=> {
   return (
     <>
     
+      <div className='grid grid-cols-1 lg:grid-cols-12 lg:gap-x-8 lg:gap-y-1'>
       <Header />
       <MainArticle />
       <NewArticle />
       <ListArticles />
       <Footer />
+      </div>
 
     </>
   )
