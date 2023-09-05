@@ -11,7 +11,7 @@ const MainArticle=()=> {
                         media="(min-width: 320px)"
                         srcSet="../assets/images/image-web-3-mobile.jpg"
                     />
-                    <img src="../assets/images/image-web-3-mobile.jpg" alt="puzzle blocks" className="py-4" />
+                    <img src="../assets/images/image-web-3-mobile.jpg" alt="puzzle blocks" className="py-4 mainImg" />
                 </picture>
                 <div className="lg:grid lg:grid-cols-2">
                 <h1 className="lg:text-6xl">The Bright Future of Web 3.0?</h1>

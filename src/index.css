@@ -34,6 +34,14 @@ color: hsl(35, 77%, 62%);
   }
 }
 
+
+@media (min-width: 1025px){
+.mainImg{
+  height: 20rem;
+  width: 100%;
+}
+}
+
 h1 {
   font-size: 2.7rem;
   font-weight: 800;
