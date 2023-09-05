@@ -13,8 +13,8 @@ const MainArticle=()=> {
                     />
                     <img src="../assets/images/image-web-3-mobile.jpg" alt="puzzle blocks" className="py-4 mainImg" />
                 </picture>
-                <div className="lg:grid lg:grid-cols-2">
-                <h1 className="lg:text-6xl lg:w-2/3">The Bright Future of Web 3.0?</h1>
+                <div className="lg:flex lg:justify-between">
+                <h1 className="lg:text-6xl">The Bright Future of Web 3.0?</h1>
                 <div>
                 <p className="lg:text-xl">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
                     people. But is it really fulfilling its promise?</p>
