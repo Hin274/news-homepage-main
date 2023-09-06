@@ -34,19 +34,19 @@ Desktop
 
 Desktop Navbar active
 <br>
-<img src="./screenshots/desktop-navbar-screenshot.png" width="300px">
+<img src="./screenshots/desktop-navbar-screenshot.png" width="500px">
 
 Desktop Read more button active
 <br>
-<img src="./screenshots/desktop-readmore-screenshot.png" width="300px">
+<img src="./screenshots/desktop-readmore-screenshot.png" width="500px">
 
 Desktop aside active
 <br>
-<img src="./screenshots/desktop-aside-screenshot.png" width="300px">
+<img src="./screenshots/desktop-aside-screenshot.png" width="500px">
 
 Desktop list articles active
 <br>
-<img src="./screenshots/desktop-list-articles-screeshot.png" width="300px">
+<img src="./screenshots/desktop-list-articles-screeshot.png" width="500px">
 
 
 ### Links
