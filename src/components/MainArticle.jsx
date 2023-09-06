@@ -5,13 +5,13 @@ const MainArticle=()=> {
                 <picture>
                     <source
                         media="(min-width: 769px)"
-                        srcSet="/public/images/image-web-3-desktop.jpg"
+                        srcSet="/images/image-web-3-desktop.jpg"
                     />
                     <source
                         media="(min-width: 320px)"
-                        srcSet="/public/images/image-web-3-mobile.jpg"
+                        srcSet="/images/image-web-3-mobile.jpg"
                     />
-                    <img src="/public/images/image-web-3-mobile.jpg" alt="puzzle blocks" className="py-4 mainImg" />
+                    <img src="/images/image-web-3-mobile.jpg" alt="puzzle blocks" className="py-4 mainImg" />
                 </picture>
                 <div className="lg:flex lg:justify-between">
                 <h1 className="lg:text-6xl">The Bright Future of Web 3.0?</h1>
