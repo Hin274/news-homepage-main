@@ -30,23 +30,23 @@ Mobile menu open
 
 Desktop
 <br>
-<img src="./screenshots/desktop-screenshot.png" width="500px">
+<img src="./screenshots/desktop-screenshot.png" width="1000px">
 
 Desktop Navbar active
 <br>
-<img src="./screenshots/desktop-navbar-screenshot.png" width="300px">
+<img src="./screenshots/desktop-navbar-screenshot.png" width="800px">
 
 Desktop Read more button active
 <br>
-<img src="./screenshots/desktop-readmore-screenshot.png" width="300px">
+<img src="./screenshots/desktop-readmore-screenshot.png" width="800px">
 
 Desktop aside active
 <br>
-<img src="./screenshots/desktop-aside-screenshot.png" width="300px">
+<img src="./screenshots/desktop-aside-screenshot.png" width="500px">
 
 Desktop list articles active
 <br>
-<img src="./screenshots/desktop-list-articles-screeshot.png" width="300px">
+<img src="./screenshots/desktop-list-articles-screeshot.png" width="1000px">
 
 
 ### Links
