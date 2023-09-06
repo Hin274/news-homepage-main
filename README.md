@@ -46,7 +46,7 @@ Desktop aside active
 
 Desktop list articles active
 <br>
-<img src="./screenshots/desktop-list-articles-screeshot.png" width="800px">
+<img src="./screenshots/desktop-list-articles-screeshot.png" width="1000px">
 
 
 ### Links
