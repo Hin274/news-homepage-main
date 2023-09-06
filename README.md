@@ -42,7 +42,7 @@ Desktop Read more button active
 
 Desktop aside active
 <br>
-<img src="./screenshots/desktop-aside-screenshot.png" width="800px">
+<img src="./screenshots/desktop-aside-screenshot.png" width="500px">
 
 Desktop list articles active
 <br>
