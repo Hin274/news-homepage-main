@@ -6,7 +6,7 @@ const Header =()=> {
     return (
         <>
             <header className="grid py-3 items-center lg:col-span-12 lg:py-0">
-                <img src="/images/logo.svg" className="w-14" />
+                <img src="/public/images/logo.svg" className="w-14" />
                  <NavBar/>  
                    
                 
