@@ -38,13 +38,6 @@ li {
   }
 }
 
-@media (min-width: 1025px) {
-  .mainImg {
-    height: 20rem;
-    width: 100%;
-  }
-}
-
 h1 {
   font-size: 2.7rem;
   font-weight: 800;
@@ -72,6 +65,12 @@ h1 {
   max-width: 12rem;
 }
 
+@media (min-width: 1025px) {
+  .readMore{
+    margin:1rem 0;
+  }
+}
+
 .readMore:hover {
   background-color: hsl(240, 100%, 5%);
 }
@@ -84,7 +83,7 @@ aside {
 
 @media (min-width: 1025px) {
   aside {
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 
@@ -109,6 +108,12 @@ aside h3:hover {
 aside p {
   color: hsl(233, 8%, 79%);
   margin-bottom: 1rem;
+}
+
+@media (min-width: 1025px) {
+  aside p {
+    margin-bottom: 0rem;
+  }
 }
 
 hr {
