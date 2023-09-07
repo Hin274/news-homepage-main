@@ -14,9 +14,9 @@ const MainArticle=()=> {
                     <img src="./images/image-web-3-mobile.jpg" alt="puzzle blocks" className="py-4 mainImg" />
                 </picture>
                 <div className="lg:flex lg:justify-between">
-                <h1 className="lg:text-6xl">The Bright Future of Web 3.0?</h1>
-                <div>
-                <p className="lg:text-xl">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
+                <h1>The Bright Future of Web 3.0?</h1>
+                <div className="lg:flex lg:flex-col lg:justify-between lg:w-1/2">
+                <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
                     people. But is it really fulfilling its promise?</p>
                 <button className="readMore">Read more</button>
                 </div>

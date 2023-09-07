@@ -3,8 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -14,7 +13,7 @@ body {
 }
 
 @media (min-width: 1025px) {
-  body{
+  body {
     margin: 2rem 8rem;
   }
 }
@@ -35,16 +34,15 @@ li {
   }
 
   ul li a:hover {
-color: hsl(35, 77%, 62%);
+    color: hsl(35, 77%, 62%);
   }
 }
 
-
-@media (min-width: 1025px){
-.mainImg{
-  height: 20rem;
-  width: 100%;
-}
+@media (min-width: 1025px) {
+  .mainImg {
+    height: 20rem;
+    width: 100%;
+  }
 }
 
 h1 {
@@ -52,6 +50,15 @@ h1 {
   font-weight: 800;
   line-height: 3rem;
   padding: 1rem 0rem;
+}
+
+@media (min-width: 1025px) {
+  h1 {
+    padding: 0rem;
+    font-size: 3.5rem;
+    max-width: 22rem;
+    line-height: 3.5rem;
+  }
 }
 
 .readMore {
@@ -62,9 +69,10 @@ h1 {
   font-weight: 700;
   letter-spacing: 3px;
   margin: 2rem 0;
+  max-width: 12rem;
 }
 
-.readMore:hover{
+.readMore:hover {
   background-color: hsl(240, 100%, 5%);
 }
 
@@ -74,12 +82,11 @@ aside {
   margin: 1rem 0;
 }
 
-@media (min-width: 1025px){
-  aside{
+@media (min-width: 1025px) {
+  aside {
     padding: 2rem;
   }
 }
-
 
 aside h2 {
   color: hsl(35, 77%, 62%);
@@ -95,7 +102,7 @@ aside h3 {
   margin-bottom: 0.5rem;
 }
 
-aside h3:hover{
+aside h3:hover {
   color: hsl(35, 77%, 62%);
 }
 
@@ -109,9 +116,9 @@ hr {
   border-color: hsl(236, 13%, 42%);
 }
 
-section article{
-max-height: 200px;
-max-width: 400px;
+section article {
+  max-height: 200px;
+  max-width: 400px;
 }
 
 article div h2 {
@@ -125,7 +132,7 @@ article div h3 {
   font-weight: 800;
 }
 
-article div h3:hover{
+article div h3:hover {
   color: hsl(5, 85%, 63%);
 }
 
